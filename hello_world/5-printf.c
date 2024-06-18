@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * description:main - Prints a Text # 2
- *
- * Write a C program that prints
+ * main - prints "with proper grammar, but the outcome is a piece of art,
+ * Description: print the message
+ * Return: value 0
  */
 int main(void)
 {
