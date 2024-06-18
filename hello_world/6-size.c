@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * description: main - Entry point
- *
- * 6. Size is not grandeur, and territory does not make a nation
+ * main - prints
+ * Description: print the message the size of various
+ * Return: value 0
  */
 int main(void)
 {
