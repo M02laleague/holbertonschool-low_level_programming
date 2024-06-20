@@ -1,4 +1,4 @@
-//bibliothèque regoupant les fontions prototype du projet 3
+/*bibliothèque regoupant les fontions prototype du projet 3*/
 int _putchar(char c);
 void print_alphabet(void);
 void print_alphabet_x10(void);
