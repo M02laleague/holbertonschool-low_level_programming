@@ -1,9 +1,18 @@
-include "main.h"
+#include "main.h"
 
 /**
- * Write a program that prints _putchar, followed by a new line..
- *
- * Return: value 0.
+ * _islower - checks for lowercase character
+ * @c: the character to check
+ * Return: 1 if c is lowercase, 0 otherwise
  */
-int main(void)
+int _islower(int c)
 {
+	if (c >= 'a' && c <= 'z')
+	{
+	return (1);
+	}
+	else
+	{
+	return (0);
+	}
+}
