@@ -5,15 +5,17 @@
 * Return: Always 0.
 */
 
-int _abs(int n)
+int print_last_digit(int n)
 {
-	if (n >= 0)
+	n = n % 10;
+	if (n > 0)
 	{
-		return (n);
+		_putchar(n + '0');
 	}
 	else
 	{
-		n = n * (-1);
-		return (n);
+		n = n * -1;
+		_putchar(n + '0');
 	}
+	return (n);
 }
