@@ -1,9 +1,19 @@
-include "main.h"
-
+#include "main.h"
 /**
- * Write a program that prints _putchar, followed by a new line..
- *
- * Return: value 0.
- */
-int main(void)
+* _abs - print an absolute value
+* @n: is the number to use
+* Return: Always 0.
+*/
+
+int _abs(int n)
 {
+	if (n >= 0)
+	{
+		return (n);
+	}
+	else
+	{
+		n = n * (-1);
+		return (n);
+	}
+}
